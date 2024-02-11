@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 //routes
-app.get("/register", (req, res) => {
+app.get("/", (req, res) => {
   res.render("register");
 });
 
